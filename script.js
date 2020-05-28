@@ -22,5 +22,5 @@ function main() {
     show.style.display = "block";
 
     let name = document.getElementById("name").value;
-    document.querySelector("h1").innerText = name;
+    document.querySelector("h1").innerText = "Hello " + name;
 }
